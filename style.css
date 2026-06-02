@@ -1,0 +1,30 @@
+*{
+    background-color: #5f4242;
+}    
+div{
+    border:1px solid black;
+    margin:10px;
+    padding:5px;
+}
+#container{
+    width:80%;
+    border:1px solid black;
+    justify-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: no-wrap;
+    flex-direction: column;
+}
+#photo{
+    width:40%;
+    border:1px solid black;
+    height:200px;
+}
+#social ul li a{
+    text-decoration: none;
+    color:black;
+}
+#social ul li a:hover{
+    color:aquamarine;
+}
