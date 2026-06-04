@@ -12,7 +12,6 @@
     justify-content: space-around;
     align-items: center;
     height: 100vh;
-    border:2px solid red;
     background-color: hsl(246, 62%, 18%);
 }
 .content{
@@ -25,7 +24,6 @@
     background-color: hsl(245, 51%, 28%);
     border-radius: 20px;
     padding: 20px;
-    border:2px solid blue;
 }
 .content img{
     width: 80px;
@@ -51,6 +49,7 @@
     font-size: 14px;
     font-weight: 400;
     color: hsl(184, 50%, 56%);
+    opacity: 0.6;
 }
 .content p#bio{
     font-size: 14px;
