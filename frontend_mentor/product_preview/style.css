@@ -99,6 +99,7 @@ main{
 }
 @media (max-width: 600px) {
     body{
+        line-height: 1.2;
         height: 100vh;
     }
     main{
@@ -106,17 +107,32 @@ main{
     }
     .card{
         flex-direction: column;
-        width: 90%;
+        width: 300px;
         justify-content:start;
-        height: 80%;
+        height: 500px;
+        border-radius: 10px;
     }
-    .card-image, .card-content{
+    .card-content{
         width: 100%;
         height: 50%;
     }
+    .card-content h4, .card-content h2{
+        margin-bottom: 5px;
+    }
+    .card-content p{
+        margin: 0px; 
+    }
+    .card-image{
+        width: 100%;
+        height:40%;
+    }
     .card-image img{
+        height: 100%;
         width: 100%;
         border-radius: 10px 10px 0px 0px;
+    }
+    .price{
+        margin:0px;
     }
     footer{
         position:static;
